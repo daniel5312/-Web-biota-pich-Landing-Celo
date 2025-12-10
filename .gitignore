@@ -1,0 +1,79 @@
+# ==============================
+# 🔐 SEGURIDAD (CRÍTICO)
+# ==============================
+.env
+.env.production
+.env.development
+.env.local
+.env.*.local
+*.pem
+
+# Mneomónicos y claves privadas (nunca subir)
+mnemonic.txt
+private-keys.txt
+secrets.json
+
+# ==============================
+# 📦 Dependencias y Node
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+
+# ==============================
+# ⛓️ Smart Contracts (Hardhat / Foundry)
+# ==============================
+# Archivos compilados y cache (se regeneran solos)
+artifacts/
+cache/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+
+# Despliegues locales (Ignition / Deployments)
+ignition/deployments/chain-31337/
+.openzeppelin/
+
+# Foundry (por si usas o migras a Foundry)
+out/
+broadcast/
+
+# ==============================
+# 🌐 Frontend (Next.js / React)
+# ==============================
+.next/
+dist/
+build/
+out/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# ==============================
+# 🛠 IDEs y Editores
+# ==============================
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==============================
+# 📄 Archivos Temporales (Office/LibreOffice)
+# ==============================
+# Bloquea los archivos lock que te dieron problemas antes
+.~lock*
+~$*
+
+# ==============================
+# 🧪 Testing & Logs
+# ==============================
+test-results/
+cypress/videos/
+cypress/screenshots/
+*.log
