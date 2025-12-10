@@ -291,6 +291,7 @@ h1 {
     margin-bottom: 24px;
     background: var(--primary-gradient);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
